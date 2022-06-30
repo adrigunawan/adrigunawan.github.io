@@ -1,3 +1,14 @@
-@media screen (max-width: 768px) {
-    
+@media screen and (max-width: 680px) {
+  header {
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    width: 100%;
+    border: 1px solid #fff;
+  }
 }

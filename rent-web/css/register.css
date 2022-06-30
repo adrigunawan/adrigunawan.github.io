@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1565347878219-552c839f1447?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.line-1 {
+  display: block;
+  position: absolute;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 30px;
+  border-radius: 0px 0px 0px 10px;
+  left: 52%;
+  top: 77%;
+  bottom: 18%;
+}
+
+.line-2 {
+  position: absolute;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  width: 30px;
+  border-radius: 0px 10px 0px 10px;
+  left: 88.3%;
+  top: 18%;
+  bottom: 77%;
+}
+
+hr {
+  margin: 55px 0;
+  margin-left: 818px;
+  position: absolute;
+  height: 0;
+  border: 1px solid black;
+  width: 95px;
+}
+
+.login-text {
+  font-family: "Righteous";
+  font-weight: 400;
+  margin: 20px;
+  margin-left: 797px;
+  height: 30px;
+  width: 10%;
+  padding-top: 0px;
+  position: absolute;
+  text-align: center;
+}
+
+.login-text {
+  margin-bottom: 10px;
+}
+
+.login {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 1144px;
+  height: 450px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.image-form {
+  float: left;
+  width: 586px;
+  height: 450px;
+  border-radius: 13px 0 0 13px;
+}
+
+.login-form {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login [type="text"] {
+  font-weight: 600;
+  font-family: "Quicksand", cursive;
+  text-align: center;
+  outline: none;
+  background: #e9e9e9;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.login [type="password"] {
+  font-weight: 600;
+  font-family: "Quicksand", cursive;
+  text-align: center;
+  outline: none;
+  background: #e9e9e9;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.login [type="email"] {
+  font-weight: 600;
+  font-family: "Quicksand", cursive;
+  text-align: center;
+  outline: none;
+  background: #e9e9e9;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.login [type="tel"] {
+  font-weight: 600;
+  font-family: "Quicksand", cursive;
+  text-align: center;
+  outline: none;
+  background: #e9e9e9;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.login .btn-register {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  font-weight: 500;
+  font-family: "Quicksand", cursive;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #7c5bff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.another-login {
+  margin-top: 10px;
+  font-family: "Quicksand", cursive;
+  font-weight: 600;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 57%;
+}
+
+select {
+  font-family: "Quicksand", cursive;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  padding-right: 15px;
+  border-radius: 15px;
+  outline: none;
+  text-align: center;
+  background-color: #e9e9e9;
+  height: 30px;
+  width: 130px;
+  border: none;
+}
+
+.another-account {
+  margin: 15px 0 0 0;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-link {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-family: "Quicksand", cursive;
+}
